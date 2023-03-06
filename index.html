@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A Beautifully creafted portfolio by Zahid Shaikh, describes about his skills, projects, services and more."
+    />
+    <meta
+      name="keywords"
+      content="the lone druid, The Lone Druid, zahid shaikh portfolio, Zahid Shaikh Portfolio, Zahid Shaikh, zahid shaikh, Beautifully Crafted Web Experiences, beautifully crafted web experiences, Web Developer, web developer, UI Designer, Programmer, Web Services, Zahid's Portfolio, Zahid Portfolio"
+    />
+    <meta name="robots" content="index, follow" />
+    <!-- <link rel="canonical" href="https://zahidshaikh.space/" /> -->
+    <!-- <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" /> -->
+    <link rel="apple-touch-icon" href="icons/apple-icon-180.png" />
+    <link rel="manifest" href="manifest.json" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link rel="stylesheet" href="dist/css/main.css" />
+    <!-- <link rel="stylesheet" href="dist/css/main.css"> -->
+    <title>Modern Portfolio</title>
+  </head>
+  <body>
+    <!-- Navbar section -->
+    <header>
+      <nav class="navbar navbar-dark">
+        <div class="container">
+          <a href="./" class="navbar-brand align-items-center d-flex">
+            <div
+              class="rounded-circle navbar-brand-icon d-flex align-items-center justify-content-center me-2"
+            >
+              <img src="./favicon.svg" width="25" alt="" />
+            </div>
+            Azhar Sayyed
+          </a>
+          <ul class="navbar-nav sidebar me-auto flex-row">
+            <li class="nav-item">
+              <a
+                href="#home"
+                class="nav-link px-3"
+                onclick="toggleSideBar(false)"
+              >
+                <span class="icon-sm d-lg-none">
+                  <i class="fad fa-home"></i>
+                </span>
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="#about"
+                class="nav-link px-3"
+                onclick="toggleSideBar(false)"
+              >
+                <span class="icon-sm d-lg-none">
+                  <i class="fad fa-user-tie"></i>
+                </span>
+                About
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="#projects"
+                class="nav-link px-3"
+                onclick="toggleSideBar(false)"
+              >
+                <span class="icon-sm d-lg-none">
+                  <i class="fad fa-briefcase"></i>
+                </span>
+                Projects
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="#skills"
+                class="nav-link px-3"
+                onclick="toggleSideBar(false)"
+              >
+                <span class="icon-sm d-lg-none">
+                  <i class="fad fa-code"></i>
+                </span>
+                Skills
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="#services"
+                class="nav-link px-3"
+                onclick="toggleSideBar(false)"
+              >
+                <span class="icon-sm d-lg-none">
+                  <i class="fad fa-tools"></i>
+                </span>
+                Services
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="#contact"
+                class="nav-link px-3"
+                onclick="toggleSideBar(false)"
+              >
+                <span class="icon-sm d-lg-none">
+                  <i class="fad fa-phone"></i>
+                </span>
+                Contact
+              </a>
+            </li>
+            <!-- <li class="nav-item">
+                        <a href="#" class="nav-link px-3">
+                            Blogs
+                        </a>
+                    </li> -->
+          </ul>
+          <ul class="navbar-nav ms-auto flex-row">
+            <li class="nav-item d-flex aling-items-center">
+              <a
+                href="https://www.linkedin.com/in/azhar-sayyed-673147179/"
+                class="nav-link px-3"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin fs-4"></i>
+              </a>
+            </li>
+            <li class="nav-item d-flex aling-items-center">
+              <a
+                href="https://github.com/azhar-siddiqui"
+                class="nav-link px-3"
+                target="_blank"
+              >
+                <i class="fab fa-github fs-4"></i>
+              </a>
+            </li>
+            <!-- <li class="nav-item d-flex aling-items-center">
+              <a
+                href="https://www.facebook.com/zahid.shaikh.77312477/"
+                class="nav-link px-3"
+                target="_blank"
+              >
+                <i class="fab fa-facebook fs-4"></i>
+              </a>
+            </li> -->
+            <li class="nav-item d-flex aling-items-center">
+              <a
+                href="https://www.instagram.com/azhar.siddiqui_"
+                class="nav-link px-3"
+                target="_blank"
+              >
+                <i class="fab fa-instagram fs-4"></i>
+              </a>
+            </li>
+          </ul>
+          <ul class="navbar-nav d-none menu-container ms-auto flex-row">
+            <li class="nav-item menu-button fs-2">
+              <a class="nav-link p-0">
+                <i class="fas fa-bars"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="overlay vh-100"></div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero section -->
+      <section class="hero-section text-light" id="home">
+        <div class="container d-flex align-items-center vh-100">
+          <div class="row align-items-center flex-lg-row flex-column-reverse">
+            <div class="col-lg-6 left-part text-lg-start text-center">
+              <h1
+                class="section-title fw-bold mb-3 display-4 gradient-text-banner stagger-animate"
+              >
+                Beautifully Crafted <br />
+                Web Experiences
+              </h1>
+              <h3 class="stagger-animate">
+                Web Developer, UX/UI Designer & Programmer
+              </h3>
+              <div
+                class="call-to-action d-flex mt-4 justify-content-lg-start justify-content-center stagger-animate"
+              >
+                <a href="#projects" class="nav-link ps-lg-0">
+                  <button class="btn btn-lg bg-gradient btn-outline-orange">
+                    Projects
+                  </button>
+                </a>
+                <a href="#services" class="nav-link">
+                  <button class="btn btn-lg btn-primary bg-gradient">
+                    Services
+                  </button>
+                </a>
+              </div>
+              <div class="scroll-down stagger-animate ps-custom-5">
+                <svg
+                  class="scroll scroll-stagger1"
+                  width="40"
+                  height="77"
+                  viewBox="0 0 40 77"
+                  style="transform: translate(0px, 0px); opacity: 1"
+                >
+                  <g id="scroll" transform="translate(-253 -787)">
+                    <g
+                      id="Rectangle_12"
+                      data-name="Rectangle 12"
+                      transform="translate(253 787)"
+                      fill="none"
+                      stroke="#fff"
+                      stroke-width="4"
+                    >
+                      <rect width="40" height="77" rx="20" stroke="none"></rect>
+                      <rect
+                        x="2"
+                        y="2"
+                        width="36"
+                        height="73"
+                        rx="18"
+                        fill="none"
+                      ></rect>
+                    </g>
+                    <circle
+                      class="circle"
+                      id="Ellipse_1"
+                      data-name="Ellipse 1"
+                      cx="11"
+                      cy="11"
+                      r="11"
+                      transform="translate(262 798)"
+                      fill="#fff"
+                    ></circle>
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="col-lg-6 right-part">
+              <img
+                src="https://raw.githubusercontent.com/The-Lone-Druid/Modern-Portfolio/23ac9279d6c0eed5f6c66e05cbbc050d5bc3e6aa/dist/img/appminded.svg"
+                width="100"
+                alt="Zahid shaikh portfolio hero image"
+                class="w-100 px-lg-0 px-5 lazyload"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About section -->
+      <section class="about text-light vh-custom" id="about">
+        <div class="container">
+          <h2 class="section-heading">About Me</h2>
+          <div class="row mt-5 align-items-center stagger-animate-up">
+            <div class="col-md-4 avatar d-flex justify-content-center">
+              <img
+                src="./dist/img/avatar.svg"
+                height="348"
+                width="348"
+                alt="Azhar Sayyed profile image"
+                class="w-100 lazyload"
+              />
+            </div>
+            <div class="col-md-8 about-text text-center text-lg-start">
+              <h1 class="gradient-text fw-bold mt-4 mt-lg-0">Azhar Sayyed</h1>
+              <p class="fs-5 mt-3">
+                Hello my name is Azhar Sayyed, a Professional Developer, UX/ UI
+                Designer and programmer. I Develop websites like Personal
+                Portfolios, E-Commerce Websites, Dashboards, Landing Pages etc.
+                I also design websites, with professional experiences in Web
+                Designing and User Interface Development. Tech stack:
+                JavaScript,Typescript, React Js, NodeJs MongoDb and etc.. Strong
+                experience with Cross Browser Compatibility issues and
+                Optimization for the web, including CSS Sprites and best
+                practices expert in responsive Web Design and analyzing and
+                fixing UI bugs quickly. Proficiency in code optimization to
+                improve performance Do check my work in the projects section and
+                also check the services I provide.
+              </p>
+              <div
+                class="call-to-action d-flex mt-4 justify-content-center justify-content-lg-start"
+              >
+                <!-- href="https://zahidshaikh.space/dist/img/resume.pdf" -->
+                <a
+                  href="./dist/img/resume.pdf"
+                  class="nav-link p-0 me-4"
+                  target="_blank"
+                >
+                  <button class="btn bg-gradient btn-outline-orange">
+                    Download CV
+                  </button>
+                </a>
+                <a href="#contact" class="nav-link p-0">
+                  <button class="btn bg-gradient btn-primary">
+                    Contact Me
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects section -->
+      <section class="projects text-light vh-custom" id="projects">
+        <div class="container">
+          <h2 class="section-heading">My Projects</h2>
+          <div class="row mt-4 projectContainer elastic-up"></div>
+        </div>
+      </section>
+
+      <!-- Skills section -->
+      <section class="skills text-light vh-custom" id="skills">
+        <div class="container">
+          <h2 class="section-heading">My Skills</h2>
+          <div
+            class="row mt-2 d-flex aling-items-center justify-content-center skillContainer"
+          ></div>
+        </div>
+      </section>
+
+      <!-- Services section -->
+      <section class="services text-light vh-custom" id="services">
+        <div class="container">
+          <h2 class="section-heading">My Services</h2>
+          <div class="row mt-2 d-flex servicesContainer"></div>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section class="contact text-light vh-custom" id="contact">
+        <div class="container">
+          <h2 class="section-heading">Contact</h2>
+          <div class="row mt-2 justify-content-center">
+            <div class="col-lg-8 mt-5 col-md-12">
+              <div class="contact-form p-md-5 p-3">
+                <h3 class="gradient-text mb-md-5 mb-3">Send a message.</h3>
+                <form
+                  action="https://formspree.io/f/meqweboa"
+                  class="needs-validation"
+                  method="POST"
+                  novalidate
+                >
+                  <div
+                    class="row-one d-flex flex-column flex-md-row mt-md-4 mt-0"
+                  >
+                    <div class="form-group mb-0 w-100 me-md-4 me-0">
+                      <label class="mb-1" for="firstName">First Name</label>
+                      <input
+                        type="text"
+                        id="firstName"
+                        name="firstName"
+                        class="form-control"
+                        required
+                        autocomplete="off"
+                      />
+                    </div>
+                    <div class="form-group mb-0 w-100 mt-md-0 mt-4">
+                      <label class="mb-1" for="lastName">Last Name</label>
+                      <input
+                        type="text"
+                        id="lastName"
+                        name="lastName"
+                        class="form-control"
+                        required
+                        autocomplete="off"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-group mt-4">
+                    <label class="mb-1" for="emailAddress">Email Address</label>
+                    <input
+                      type="email"
+                      id="emailAddress"
+                      name="emailAddress"
+                      class="form-control"
+                      required
+                      autocomplete="off"
+                    />
+                  </div>
+                  <div class="form-group mt-4">
+                    <label class="mb-1" for="contactNumber"
+                      >Contact Number</label
+                    >
+                    <input
+                      type="tel"
+                      id="contactNumber"
+                      name="contactNumber"
+                      class="form-control"
+                      required
+                      autocomplete="off"
+                    />
+                  </div>
+                  <div class="form-group my-4">
+                    <label class="mb-1" for="message">Message</label>
+                    <textarea
+                      name="message"
+                      id="message"
+                      rows="5"
+                      class="form-control"
+                      placeholder="Writ your message"
+                      required
+                      autocomplete="off"
+                    ></textarea>
+                  </div>
+                  <button
+                    class="btn btn-primary bg-gradient"
+                    type="submit"
+                    id="submit"
+                  >
+                    Send Message
+                  </button>
+                  <button
+                    class="btn btn-outline-warning bg-gradient ms-2"
+                    id="clearFields"
+                  >
+                    Clear Fields
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer class="bg-dark text-center py-2 bg-gradient text-light">
+      <label class="gradient-text">
+        Copyright &copy; 2023<br />
+        Designed and Build by Sayyed Azhar
+      </label>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+      integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"
+      integrity="sha512-Q+G390ZU2qKo+e4q+kVcJknwfGjKJOdyu5mVMcR95NqL6XaF4lY4nsSvIVB3NDP54ACsS9rqhE1DVqgpApl//Q=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="dist/js/bootstrap.js"></script>
+    <script src="dist/js/content/easyHTTP.js"></script>
+    <script src="dist/js/gsap.js"></script>
+    <script src="dist/js/app.js"></script>
+    <script src="dist/js/lazysizes.min.js" async=""></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emretulek/jbvalidator"></script>
+    <script>
+      // Service worker
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("/service-worker.js");
+      }
+
+      $(function () {
+        let validator = $("form.needs-validation").jbvalidator({
+          errorMessage: true,
+          successClass: true,
+          language: "https://emretulek.github.io/jbvalidator/dist/lang/en.json",
+        });
+
+        // custom validate method
+        validator.validator.custom = function (el, event) {
+          if ($(el).is("[name=password]") && $(el).val().length < 5) {
+            return "Your password is too weak.";
+          }
+        };
+      });
+    </script>
+  </body>
+</html>

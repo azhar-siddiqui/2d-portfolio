@@ -1,0 +1,54 @@
+[
+  {
+    "skillIcon": "fab fa-html5 fa-5x",
+    "skillName": "HTML"
+  },
+  {
+    "skillIcon": "fab fa-css3 fa-5x",
+    "skillName": "CSS"
+  },
+  {
+    "skillIcon": "fab fa-js-square fa-5x",
+    "skillName": "JavaScript"
+  },
+  {
+    "skillIcon": "fab fa-react fa-5x",
+    "skillName": "React Js"
+  },
+  {
+    "skillIcon": "fab fa-node fa-5x",
+    "skillName": "Node Js"
+  },
+  {
+    "skillIcon": "fab fa-figma fa-5x",
+    "skillName": "Figma"
+  },
+  {
+    "skillIcon": "fab fa-sass fa-5x",
+    "skillName": "SASS"
+  },
+  {
+    "skillIcon": "fab fa-github fa-5x",
+    "skillName": "Github"
+  },
+  {
+    "skillIcon": "fab fa-bootstrap fa-5x",
+    "skillName": "Bootstrap"
+  },
+  {
+    "skillIcon": "fab fa-tailwind fa-5x",
+    "skillName": "Tailwind Css"
+  },
+  {
+    "skillIcon": "fab fa-tailwind fa-5x",
+    "skillName": "Material-Ui"
+  },
+  {
+    "skillIcon": "fa-regular fa-database fa-5x",
+    "skillName": "MongoDb"
+  },
+  {
+    "skillIcon": "fab fa-git-alt fa-5x",
+    "skillName": "Git"
+  }
+]

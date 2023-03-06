@@ -1,0 +1,32 @@
+[
+    {
+        "serviceIcon": "fas fa-pencil-paintbrush",
+        "serviceHeading": "Web Design",
+        "serviceText": "I use an amazing tool known as Figma using which my Clients can get an overview of how the actual website will look like & how it will Interact with the user."
+    },
+    {
+        "serviceIcon": "fab fa-html5",
+        "serviceHeading": "Prototype/ PSD to HTML",
+        "serviceText": "I can even convert a Prototype or a PSD into HTML document. Also make it responsive using a best technology known as SASS. Design will be as same as Prototype or PSD."
+    },
+    {
+        "serviceIcon": "fas fa-laptop-code",
+        "serviceHeading": "Clean & Valid Code",
+        "serviceText": "Code written will be 100% Clean & Valid, It can be understood by other developers if required. I always keep two things in mind and that are Reusability & Maintainability."
+    },
+    {
+        "serviceIcon": "fas fa-cogs",
+        "serviceHeading": "Easy to Customize",
+        "serviceText": "I develope websites in such a way that they can be customized according to the clients requirements. Also make it easier if new feature is to be added."
+    },
+    {
+        "serviceIcon": "fas fa-phone-laptop",
+        "serviceHeading": "Multi-Device Website",
+        "serviceText": "Websites that I design are 100% Responsive & can adjust themselves according to the Viewport size. i.e, They can run on Mobiles, Tablets, Desktops, Laptops, etc."
+    },
+    {
+        "serviceIcon": "fab fa-github",
+        "serviceHeading": "Version Control",
+        "serviceText": "To keep my website fresh & updated i use GitHub's Version Control. Using this powerful Tool It's possible to control the version of my project and update it accordingly."
+    }               
+]

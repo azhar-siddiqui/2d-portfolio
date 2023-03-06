@@ -1,0 +1,26 @@
+[
+  {
+    "projectImage": "https://hobby-cue.netlify.app/static/media/Logo.9f3f2722.svg",
+    "projectName": "Hobby-Cue",
+    "projectInfo": "Hobby-Cue is a platform then user can interact with a community of fellow hobbyists.",
+    "projectLink": "https://hobby-cue.netlify.app"
+  },
+  {
+    "projectImage": "https://casaarch.in/static/media/CasaLogo.b2a5ab2ff3252fd33bc2b13147e1d39a.svg",
+    "projectName": "Casa-arch",
+    "projectInfo": "Casa Arch is a platform that provides services like Interior Design, Architect Solutions, etc.",
+    "projectLink": "https://casaarch.in"
+  },
+  {
+    "projectImage": "https://www.epacts.in/static/media/Logo.37b7fc2da7cf401c66f16c4a2492c876.svg",
+    "projectName": "E-pacts",
+    "projectInfo": "E-Pacts Cloud Services, as the name defines provide cloud-related services.",
+    "projectLink": "https://www.epacts.in"
+  },
+  {
+    "projectImage": "https://raw.githubusercontent.com/The-Lone-Druid/Modern-Portfolio/main/dist/img/betarisk.png",
+    "projectName": "BetaRisk CRM",
+    "projectInfo": "BetaRisk is an enterprise risk technology company with a mission to make businesses more sustainable and resilient.",
+    "projectLink": "https://www.betarisk.com"
+  }
+]
